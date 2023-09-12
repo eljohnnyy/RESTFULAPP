@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "26478475884",
+    "project_id": "restfulapi-f84f4",
+    "storage_bucket": "restfulapi-f84f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26478475884:android:ceebebba2edb664bcbb649",
+        "android_client_info": {
+          "package_name": "com.example.restfulapi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7Nxgp78EFvoQzS90tFlavFOZp5PzuSEU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
