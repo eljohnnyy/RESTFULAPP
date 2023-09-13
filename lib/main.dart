@@ -1,6 +1,22 @@
-import 'package:flutter/material.dart';
+import 'dart:convert';
 
-void main() {
+import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_database/firebase_database.dart';
+import 'package:flutter/material.dart';
+import 'package:http/http.dart'as http;
+import 'firebase_options.dart';
+
+void main()async {
+   WidgetsFlutterBinding.ensureInitialized();
+     await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+
+  
+    
+     const  String url='https://restfulapi-f84f4-default-rtdb.firebaseio.com/product.json';
+     http.post(Uri.parse(url),body: json.encode({'id':1,'titlt':'mytitle'}));
+   
   runApp(const MyApp());
 }
 
